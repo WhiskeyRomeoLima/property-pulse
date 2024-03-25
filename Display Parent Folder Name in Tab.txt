@@ -1,0 +1,11 @@
+For VS Code, you can force it to display the parent folder name next to the file name in the tab.
+
+So if you have a file "/customers/page.tsx" it will display "page.tsx customers" in the tab.
+
+To achieve this:
+
+File -> Preferences -> Settings
+Search "workbench.editor.labelFormat"
+In the dropdown option select "short"
+
+https://stackoverflow.com/questions/76459766/renaming-page-tsx-files-in-nextjs-13-app-directory
